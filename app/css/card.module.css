@@ -1,0 +1,36 @@
+.card {
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #999;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    min-width: 300px;
+    cursor: pointer;
+}
+.card:hover {
+    border: 1px solid #000;
+    background-color: rgb(212, 212, 212);
+}
+
+.card_title {
+    font-size: 26px;
+}
+
+.card_description {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card_button {
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+}
+.card_button:hover {
+    background-color: red;
+    color: #fff;
+}
