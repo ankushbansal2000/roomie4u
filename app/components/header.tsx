@@ -2,7 +2,7 @@
 import styles from './../css/header.module.css';
 import Image from 'next/image';
 import Navbar from './navbar';
-import { useRouter } from 'next/navigation';
+import { useRouter } from 'next/router';
 
 const Header = () => {
     const router = useRouter();
